@@ -7,8 +7,8 @@ return [
     | Default Session Driver
     |--------------------------------------------------------------------------
     |
-    | This option controls the default session "driver" that will be used on
-    | requests. By default, we will use the lightweight native driver but
+    | This option controls the admin session "driver" that will be used on
+    | requests. By admin, we will use the lightweight native driver but
     | you may specify any of the other wonderful drivers provided here.
     |
     | Supported: "file", "cookie", "database", "apc",
@@ -52,7 +52,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | When using the native session driver, we need a location where session
-    | files may be stored. A default has been set for you but a different
+    | files may be stored. A admin has been set for you but a different
     | location may be specified. This is only needed for file sessions.
     |
     */
@@ -78,7 +78,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | When using the "database" session driver, you may specify the table we
-    | should use to manage the sessions. Of course, a sensible default is
+    | should use to manage the sessions. Of course, a sensible admin is
     | provided for you; however, you are free to change this as needed.
     |
     */
@@ -105,7 +105,7 @@ return [
     |
     | Some session drivers must manually sweep their storage location to get
     | rid of old sessions from storage. Here are the chances that it will
-    | happen on a given request. By default, the odds are 2 out of 100.
+    | happen on a given request. By admin, the odds are 2 out of 100.
     |
     */
 
@@ -147,7 +147,7 @@ return [
     |
     | Here you may change the domain of the cookie used to identify a session
     | in your application. This will determine which domains the cookie is
-    | available to in your application. A sensible default has been set.
+    | available to in your application. A sensible admin has been set.
     |
     */
 
@@ -185,7 +185,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | This option determines how your cookies behave when cross-site requests
-    | take place, and can be used to mitigate CSRF attacks. By default, we
+    | take place, and can be used to mitigate CSRF attacks. By admin, we
     | do not enable this as other CSRF protection services are in place.
     |
     | Supported: "lax", "strict"
